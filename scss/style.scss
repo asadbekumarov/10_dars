@@ -12,7 +12,7 @@ li {
   list-style: none;
 }
 .header__section {
-    padding-top: 20px;
+  padding-top: 20px;
   .header__section__content {
     display: flex;
     justify-content: space-between;
@@ -122,7 +122,6 @@ li {
     }
   }
 }
-
 .hero__section {
   .hero__section__content {
     img {
@@ -249,6 +248,85 @@ li {
       padding-bottom: 30px;
     }
     .pitsa__cards {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      .card {
+        margin-bottom: 50px;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.45);
+        img {
+          max-width: 241px;
+        }
+        h4 {
+          font-weight: 400;
+          font-size: 20px;
+          padding-bottom: 13px;
+        }
+        p {
+          color: rgb(130, 130, 130);
+        }
+        h5 {
+          font-weight: 800;
+          font-size: 24px;
+          padding-top: 25px;
+        }
+        .card:hover {
+          transition: all 0.2s linear;
+          scale: 1.02 !important;
+        }
+      }
+    }
+  }
+}
+.gazaklar__section {
+  .gazaklar__section__content {
+    h4 {
+      font-weight: 600;
+      font-size: 30px;
+      padding-bottom: 30px;
+    }
+    .gazaklar__cards {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      .card {
+        margin-bottom: 50px;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0px 0px 60px -30px rgba(0, 0, 0, 0.45);
+        img {
+          max-width: 241px;
+        }
+        h4 {
+          font-weight: 700;
+          font-size: 20px;
+          padding-bottom: 13px;
+        }
+        h5 {
+          font-weight: 800;
+          font-size: 24px;
+          padding-top: 25px;
+        }
+        .card:hover {
+          transition: all 0.2s linear;
+          scale: 1.02 !important;
+        }
+      }
+    }
+  }
+}
+.ichimliklar__section {
+  .ichimliklar__section__content {
+    h4 {
+      font-weight: 600;
+      font-size: 30px;
+      padding-bottom: 30px;
+    }
+    .ichimliklar__cards {
       display: flex;
       justify-content: space-between;
       align-items: center;
